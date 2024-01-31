@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "numpy-cli"
+name = "pandas-cli"
 version = "0.1.0"
 description = ""
 authors = ["Ben Skubi <skubi@ohsu.edu>"]
@@ -12,7 +12,7 @@ numpy = "^1.26.3"
 click = "^8.1.7"
 
 [tool.poetry.scripts]
-numpy-cli = "numpy_cli.__main__:cli"
+pandas-cli = "pandas_cli.__main__:cli"
 
 
 [build-system]
