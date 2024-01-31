@@ -12,7 +12,7 @@ numpy = "^1.26.3"
 click = "^8.1.7"
 
 [tool.poetry.scripts]
-numpy-cli = "numpy_cli.main:cli"
+numpy-cli = "numpy_cli.__main__:cli"
 
 
 [build-system]
